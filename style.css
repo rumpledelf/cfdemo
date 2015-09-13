@@ -1,0 +1,134 @@
+body{
+	font-family: 'Arial', 'sans-serif';
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto';
+}
+#header{
+	background-color: #eee;
+	padding: 10px 0;
+}
+#header img{
+	float: left;
+	height: 50px;
+	width: auto;
+}
+#mainmenu{
+	float: right;
+	padding: 15px 0;
+}
+#mainmenu a{
+	padding: 0 20px;
+}
+
+.inner{
+	max-width: 980px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+a{
+	color: #1c3863;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover{
+	color: #f3a32f;
+	text-decoration: underline;
+}
+
+#blurb, #services, #featured, #clients{
+	font-size: 1.2em;
+	line-height: 1.6em;
+	color: #555;
+	padding: 60px 0;
+}
+#blurb a{
+	color: #f3a32f;
+}
+#blurb h1{
+	color: #333;
+	font-size: 2.3em;
+	margin: 0.6em 0 1em 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#services{
+	background-color: #f3a32f;
+	color: black;
+}
+#services .learnmore{
+	display: block;
+	text-align: center;
+	width: 160px;
+	margin: 30px auto;
+	padding: 10px 0;
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+	box-shadow: 1px 3px #666;
+}
+#services .learnmore:hover{
+	color: #eee;
+	text-decoration: none;
+	background-color: #333;
+}
+#featured{
+	background-color: #eee;
+}
+.halfwidth{
+	width: 50%;
+	float: left;
+}
+#clients h2,
+.halfwidth h2{
+	text-transform: uppercase;
+	text-align: center;
+	color: #333;
+}
+.halfwidth .innerhalf{
+	padding: 0 40px;
+}
+.tel{
+	font-size: 1.5em;
+	color: #333;
+	text-align: center;
+	display: block;
+}
+#clients{
+	text-align: center;
+}
+#clients img{
+	margin: 0 15px;
+	height: 54px;
+	width: auto;
+}
+#clients .nav{
+	font-size: 4em;
+	color: #999;
+}
+#partners{
+	background-color: #ddd;
+	padding: 20px 0;
+	text-align: center;
+}
+#partners img{
+	margin: 0 15px;
+	vertical-align: middle;
+}
+#footer{
+	background-color: #333;
+	color: #bbb;
+	text-align: center;
+	padding: 20px 0;
+}
+#footer img{
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
