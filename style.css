@@ -26,9 +26,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .inner{
-	max-width: 1000px;
+	max-width: 1024px;
 	margin: 0 auto;
-	padding: 0 10px;
+	padding: 0 20px;
 	overflow: hidden;
 }
 
@@ -94,7 +94,7 @@ a:hover{
 	color: #333;
 }
 .halfwidth .innerhalf{
-	padding: 0 40px;
+	padding: 0 20px;
 }
 .tel{
 	font-size: 1.5em;
@@ -146,5 +146,8 @@ a:hover{
 	.halfwidth{
 		width: 100%;
 		float: none;
+	}
+	.halfwidth .innerhalf{
+		padding: 0;
 	}
 }
