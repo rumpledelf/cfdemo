@@ -26,8 +26,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .inner{
-	max-width: 980px;
+	max-width: 1000px;
 	margin: 0 auto;
+	padding: 0 10px;
 	overflow: hidden;
 }
 
@@ -53,6 +54,7 @@ a:hover{
 #blurb h1{
 	color: #333;
 	font-size: 2.3em;
+	line-height: 1.3em;
 	margin: 0.6em 0 1em 0;
 	text-transform: uppercase;
 	text-align: center;
@@ -71,7 +73,7 @@ a:hover{
 	color: white;
 	background-color: black;
 	border-radius: 5px;
-	box-shadow: 1px 3px #666;
+	box-shadow: 0px 3px #666;
 }
 #services .learnmore:hover{
 	color: #eee;
@@ -118,7 +120,7 @@ a:hover{
 	text-align: center;
 }
 #partners img{
-	margin: 0 15px;
+	margin: 5px 15px;
 	vertical-align: middle;
 }
 #footer{
@@ -126,9 +128,23 @@ a:hover{
 	color: #bbb;
 	text-align: center;
 	padding: 20px 0;
+	line-height: 1.6em;
 }
 #footer img{
 	width: 30px;
 	height: 30px;
 	vertical-align: middle;
+}
+@media (max-width: 760px){
+	#header{
+		text-align: center;
+	}
+	#header #mainmenu,
+	#header img{
+		float: none;
+	}
+	.halfwidth{
+		width: 100%;
+		float: none;
+	}
 }
